@@ -1,0 +1,56 @@
+#cursor {
+  position: fixed;
+  top: -5px;
+  left: -5px;
+  width: 10px;
+  height: 10px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 999;
+}
+
+#cursor-border {
+  --size: 50px;
+  position: fixed;
+  top: calc(var(--size) / -2);
+  left: calc(var(--size) / -2);
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px whitesmoke;
+  pointer-events: none;
+  transition: top 0.15s ease-out, left 0.15s ease-out, width 0.15s ease-out,
+    height 0.15s ease-out, background-color 0.15s ease-out;
+  z-index: 999;
+  /* box-shadow: 0 0 40px white; */
+}
+
+*::selection {
+  color: #111827;
+  background-color: white;
+
+}
+
+* {
+  cursor: url('./src/assets/cursor.png'), auto !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body::-webkit-scrollbar {
+  width: 7px;
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 2px;
+  background-color: #111827;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #979EAA;
+}

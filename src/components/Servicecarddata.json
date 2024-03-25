@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "title": "Basic Web Development",
+    "desc": "Create stunning single-page apps with React and Next.js for a modern, engaging user experience!",
+    "price": "33.99",
+    "funtionality1": "Custom Web Design",
+    "funtionality2": "Responsive Designs",
+    "funtionality3": "Content Management",
+    "funtionality4": "Performance Optimization",
+    "funtionality5": "Accessibility"
+  },
+  {
+    "id": 2,
+    "title": "Advance Web Development",
+    "desc": "Master React or Next.js for frontend, Django for backend, with user auth and forms for dynamic web apps!",
+    "price": "169.99",
+    "funtionality1": "Custom Web Design",
+    "funtionality2": "Responsive Designs",
+    "funtionality3": "E-commerce Integration ",
+    "funtionality4": "Maintenance and Support",
+    "funtionality5": "Security"
+  },
+  {
+    "id": 3,
+    "title": "Web Development Courses",
+    "desc": "Explore our range of courses, progressing from basics to advanced web development skills!",
+    "price": "9.99",
+    "funtionality1": "Introduction to Web Development",
+    "funtionality2": "Frontend Development with React",
+    "funtionality3": "Backend Development with Django",
+    "funtionality4": "Full-Stack Web Development",
+    "funtionality5": "Building Dynamic Websites"
+  }
+]

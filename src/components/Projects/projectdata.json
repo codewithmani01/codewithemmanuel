@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "img": "../src/assets/ChatBot.jpg",
+    "title": "Friendly & Customer Service ChatBot",
+    "desc": "This Chatbot can store your data in a file then it will be respond you according to that data also he is able to learn more words or things you want."
+  },
+  {
+    "id": "2",
+    "img": "../src/assets/HRS.jpg",
+    "title": "Hotel Reservation System",
+    "desc": "You can reserve a hotel and it will be sent an email to reservation department of hotel. If you want to make some changes you can do this, there should date available for changes."
+  },
+  {
+    "id": "3",
+    "img": "../src/assets/HMS.jpg",
+    "title": "Hospital Management System",
+    "desc": "In HMS, you can add patient's information and access anytime and can change the information whenever you want. All the information should be stored in json file."
+  }
+]
